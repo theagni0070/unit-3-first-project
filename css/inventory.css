@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#all_products {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin:auto;
+}
+#all_products>div>img {
+width: 100%;
+height: 60%;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+cursor: pointer;
+}
+#add_more_product{
+    margin: 40px;
+    border: 0px;
+    border-radius: 8px;
+    padding:10px 50px;
+    background-color: teal;
+    color: beige;
+    cursor: pointer;
+}
+#add_more_product:hover {
+    background-color: rgb(110, 241, 241);
+    color: rgb(80, 77, 77);
+}
+#all_products>div {
+    border-radius: 10px;
+    height: 450px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#all_products>div:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+h3,p,h4 {
+    padding: 8px;
+    margin: 5px 0px 0px 20px;
+}
+#all_products>div>button {
+    margin: auto;
+    margin: 5px 0px 0px 20px;
+    padding: 8px 60px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#all_products>div>button:hover {
+    color: black;
+    background-color: wheat;
+}
+#navbar {
+    width: 25%;
+    margin: auto;
+}
